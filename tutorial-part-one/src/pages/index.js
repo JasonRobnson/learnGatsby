@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Counter from "./counter.js"
 
 export default () =>
      <div style={{ color: `tomato` }}>
@@ -13,4 +14,8 @@ export default () =>
          <div>
              <Link to="/page-3/">Third Page</Link>
          </div>
+         <div>
+             <Link to="/counter/">Counter</Link>
+         </div>
+        <Counter />
      </div>
